@@ -1,0 +1,61 @@
+.button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.default-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.default-photo img {
+    max-width: 50%;
+    opacity: 0.5;
+}
+
+.default-photo p {
+    margin-top: 10px;
+    color: #888;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 56px);
+}
+
+.photo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.custom-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    border: 1px solid white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
